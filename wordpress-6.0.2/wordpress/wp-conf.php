@@ -4,12 +4,13 @@
 define( 'WP_ENVIRONMENT_TYPE', 'production' );
 
 /* Database connection */
-define( 'DB_NAME', 'yykkzhvn_wordpressv2' );
-define( 'DB_USER', 'yykkzhvn_root' );
-define( 'DB_PASSWORD', 'zaef45F64Ff8Fzae45D' );
-define( 'DB_HOST', 'node119-eu.n0c.com' );
+define( 'DB_NAME', 'heroku_24407b1830caad3' );
+define( 'DB_USER', 'b499eae5ef0a25' );
+define( 'DB_PASSWORD', '728b1d51' );
+define( 'DB_HOST', 'eu-cdbr-west-03.cleardb.net' );
 define( 'DB_CHARSET', 'utf8mb4' );
 define( 'DB_COLLATE', 'utf8mb4_general_ci' );
+/* mysql://b499eae5ef0a25:728b1d51@eu-cdbr-west-03.cleardb.net/heroku_24407b1830caad3?reconnect=true */
 
 /* Tables */
 $table_prefix = 'wp0stm95_';
