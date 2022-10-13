@@ -84,7 +84,8 @@ define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
-
+define( 'WP_HOME', 'https://vaccinstudi.herokuapp.com' );
+define( 'WP_SITEURL', 'https://vaccinstudi.herokuapp.com' );
 
 /* That's all, stop editing! Happy publishing. */
 
