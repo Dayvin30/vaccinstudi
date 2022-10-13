@@ -79,7 +79,15 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+// Activer le mode WP_DEBUG
+define( 'WP_DEBUG', true );
+// Activer l'enregistrement de débogage dans le fichier /wp-content/debug.log.
+define( 'WP_DEBUG_LOG', true );
+// Désactiver l'affichage des erreurs et des avertissements 
+define( 'WP_DEBUG_DISPLAY', false );
+@ini_set( 'display_errors', 0 );
+// Utilisez les versions de développement des fichiers JS et CSS de base (nécessaire uniquement si vous modifiez ces fichiers de base).
+define( 'SCRIPT_DEBUG', true );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
