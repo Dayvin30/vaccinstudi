@@ -21,16 +21,16 @@
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 //mysql://b499eae5ef0a25:728b1d51@eu-cdbr-west-03.cleardb.net/heroku_24407b1830caad3?reconnect=true
-define( 'DB_NAME', 'heroku_6d46fba2e573ce7' );
+define( 'DB_NAME', 'FKYr42ryKt' );
 
 /** Database username */
-define( 'DB_USER', 'b2c70896e7bd68' );
+define( 'DB_USER', 'FKYr42ryKt' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'c8a1bc89' );
+define( 'DB_PASSWORD', 'FNZNN9i6BH' );
 
 /** Database hostname */
-define( 'DB_HOST', 'eu-cdbr-west-03.cleardb.net' );
+define( 'DB_HOST', 'remotemysql.com/phpmyadmin' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
